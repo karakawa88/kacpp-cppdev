@@ -1,0 +1,18 @@
+# GCCなどのツール
+#build-essential
+pkg-config
+devscripts
+libreadline-dev
+readline-common
+cmake
+libtool
+libtool-bin
+autoconf
+make
+bison
+flex
+zlibc
+libzlcore-dev
+zlib1g-dev
+libssl-dev
+libgnutls28-dev

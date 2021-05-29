@@ -1,0 +1,8 @@
+# GCCアンインストール
+gcc-8-base
+gcc-8
+gcc
+libgcc-8-dev
+libgcc1
+g++-8
+g++
