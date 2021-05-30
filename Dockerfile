@@ -36,7 +36,7 @@ ENV         GCC_VERSION=11.1.0
 ENV         GCC_SRC=gcc-${GCC_VERSION}
 ENV         GCC_DEST=gcc-${GCC_VERSION}
 ENV         GCC_HOME=/usr/local/${GCC_DEST}
-ENV         PATH=${GCC_HOME}/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+ENV         PATH=${GCC_HOME}/bin:${PYTHON_HOME}/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 COPY        --from=builder /usr/local/${GCC_DEST}/ ${GCC_HOME}
 COPY        sh/apt-install/ /usr/local/sh/apt-install
 COPY        rcprofile /etc/rc.d
